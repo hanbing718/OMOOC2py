@@ -6,10 +6,7 @@
     "plugins": ["disqus"],
     "pluginsConfig": {"disqus":{
         "shortName": "zq4gitbooks4omooc2py2content"
-        , "tocstyles" : [ "", "cjk-ideographic", "decimal-leading-zero" ]
-        , "github": {
-              "url": "https://github.com/ZoomQuiet/OMOOC2py"
-            }
+      }
     }
 }
 
