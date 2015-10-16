@@ -3,12 +3,8 @@
     "description": "OMOOC.py tutorial for teching",
     "author": "OMOOC-support <omooc-support@googlegroups.com>",
 
-    "plugins": [
-        "disqus" , 
-        "github" ,
-        "tocstyles"
-    ],
-    "pluginsConfig": {
+    "plugins": ["disqus"],
+    "pluginsConfig": {"disqus":{
         "shortName": "zq4gitbooks4omooc2py2content"
         , "tocstyles" : [ "", "cjk-ideographic", "decimal-leading-zero" ]
         , "github": {
