@@ -4,7 +4,10 @@
     "author": "OMOOC-support <omooc-support@googlegroups.com>",
 
     "plugins": ["disqus"],
-    "pluginsConfig": {"disqus":{
+    "pluginsConfig": 
+    {
+        "disqus":
+    {
         "shortName": "zq4gitbooks4omooc2py2content"
       }
     }
