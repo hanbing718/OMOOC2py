@@ -3,7 +3,7 @@
     "description": "OMOOC.py tutorial for teching",
     "author": "OMOOC-support <omooc-support@googlegroups.com>",
 
- {
+ 
     "plugins": ["disqus"],
     "pluginsConfig": {
         "disqus": {
