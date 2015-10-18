@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [教学反转](0MOOC/README.md)
    * [1.1 0w git使用](0MOOC/11_0w_gitshi_yong.md)
-   * [1.2 0wd4 公开课笔记](0MOOC/12_0wd4class2.md)
+   * [1.2 0wd4 公开课笔记](0MOOC/1.2_0wd4_class2.md)
 * [基础旋进](1sTry/README.md)
 * [迭代作品](2nDev/README.md)
 * [人生首秀](3rDemo/README.md)
