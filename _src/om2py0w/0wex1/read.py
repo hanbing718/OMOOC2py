@@ -1,2 +1,2 @@
-import main.py
-print main.py.name
+import dir.main
+print dir.main.name
