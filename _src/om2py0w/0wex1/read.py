@@ -6,9 +6,7 @@ ls =os.linesep
 
 fname = raw_input('input a file name to save filenames:%s' % ls)
 	
-
 #
-
 print"\nEnter lines *'.'by itself to quit).\n"
 
 #loop until user terminates input
@@ -22,9 +20,14 @@ while True:
 			for eachline in fobj:
 				print eachline
     	elif entry=='WRITE':
+		print 'EXIT'
 		all=[]
 		entrytxt=raw_input('>>')
-       		all.append(entrytxt)
+		while True：
+			if entrytxt=='EXIT':
+				continue
+			else:
+       				all.append(entrytxt)
                 
         else:	
 		print 'ERROR'
