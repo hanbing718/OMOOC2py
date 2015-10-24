@@ -8,7 +8,7 @@ fname = raw_input('input a file name to save filenames:%s' % ls)
 	
 
 #
-all=[]
+
 print"\nEnter lines *'.'by itself to quit).\n"
 
 #loop until user terminates input
@@ -18,15 +18,16 @@ while True:
 	if entry=='EXIT':
        		break
     	elif entry=='READ':
-			fobj=open(fname,'r+')	
+			fobj=open(fname,'r')	
 			for eachline in fobj:
 				print eachline
     	elif entry=='WRITE':
-       		all.append(entry)
-
-#
-fobj=open(fname,'w+')
-fobj.writelines(['%s%s' % (x,ls)for x in all])
-fobj.close()
-		
+		all=[]
+		entrytxt=raw_input('>>')
+       		all.append(entrytxt)
+                fobj=open(fname,'w')
+                fobj.writelines(['%s%s' % (x,ls)for x in all])
+                fobj.close()
+        else:	
+		break
 	
